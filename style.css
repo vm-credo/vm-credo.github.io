@@ -23,13 +23,16 @@
                 text-align: center;
                 color: white;
             }
-            .name span
+            .name span{
             font-size: 150px;
-            .about_me
+			}
+			
+            .about_me_nu
             {
-                position: absolute;
+				font-size: 0.64vw;
+				position: absolute;
                 top: 600px;
-                right: 2060px;
+                left: 12%;
 
             }
             a
@@ -37,17 +40,23 @@
                 color: white;
                 text-decoration: none;
             }
-            .portfolio
+            .portfolio_menu
             {
+				font-size: 0.64vw;
                 position: absolute;
                 top: 880px;
                 right: 2040px;
+				left: 12%;
+
             }
-            .contacts
+            .contacts_menu
             {
+				font-size: 0.64vw;
                 position: absolute;
                 top: 1120px;
                 right: 2040px;
+				left: 12%;
+
             }
             .me
             {
